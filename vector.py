@@ -1,3 +1,4 @@
+# This is just my initial attempt to code my final project.
 class Arthropod:
     def __init__(type, insect, arachnid):
         type.insect = insect
