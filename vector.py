@@ -5,15 +5,17 @@ class Arthropod:
         type.arachnid = arachnid
 
 
-class Geographical:
-    def get_location(city_name, county_name):
-        return f"Location: {city_name}, {county_name}"
+def get_location(city_name, county_name):
+    return f"Location: {city_name}, {county_name}"
 
 
 message = get_location("Amarillo", "Potter")
 print(message)
 
 
-class Glossary:
-    def __init__(definition, culicidae):
-        definition.culicidae = culicidae
+def get_glossary(term):
+    return f"Definition of {term}"
+
+
+message = get_glossary("Culicidae")
+print(message)
