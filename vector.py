@@ -6,9 +6,11 @@ class Arthropod:
 
 
 class Geographical:
-    def __init__(location, county, city):
-        location.county = county
-        location.city = city
+    def location(city_name, county_name):
+        print(f"Location {city_name}, {county_name}")
+
+
+location("Amarillo", "Potter")
 
 
 class Glossary:
