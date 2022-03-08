@@ -6,11 +6,12 @@ class Arthropod:
 
 
 class Geographical:
-    def location(city_name, county_name):
-        print(f"Location {city_name}, {county_name}")
+    def get_location(city_name, county_name):
+        return f"Location: {city_name}, {county_name}"
 
 
-location("Amarillo", "Potter")
+message = get_location("Amarillo", "Potter")
+print(message)
 
 
 class Glossary:
