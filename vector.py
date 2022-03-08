@@ -19,3 +19,4 @@ def get_glossary(term):
 
 message = get_glossary("Culicidae")
 print(message)
+print("A family, Mosquitoes, of the Order Diptera (Flies).")
